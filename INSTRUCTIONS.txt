@@ -1,0 +1,28 @@
+*******INSTRUCTIONS*******
+To run the app, either open the main file and run it, or open the SpectrumAnalyserApp.mlapp and run it
+
+Tabs:
+1) Any Signal
+  
+   This tab takes a signal as input and does spectrum analysis on it.
+   a. In this tab, click on the 'Signal Equation' input field and type the signal in the format accepted by matlab.
+       Use t to denote time
+       For example 2*sin(2*pi*t)+3*sin(2*pi*3*t)
+   b. enter the upper limit of time, upto which you want to view the signal
+        For example, 10
+   c. Click on the Analyse button 
+   d. The time domain and frequency domain Graphs of the signal is plotted and 'Success!!' is printed in Result field
+				or
+       'Error!!' is printed in Result field in case of error
+2)Audio Signals Tab
+   
+   This tab does spectrum analysis on a sound file
+    a. To add an audio file, either copy that file in the app folder and type its name as filename, or type the URL of the file
+        residing on your system as URL
+        To avoid complexity, some audio files are already been added in the folder which can be choosen by using a dropdown 
+        box
+    b. To hear the audio clip, click on play sound
+    c. Click on Analyse button to do spectrum analysis upon the audio file
+    d. The time domain and frequency domain Graphs of the audio signal is plotted and 'Success!!' is printed in Result field
+				or
+       'Cannot find audio file' is printed in Result field if it fails to find the audio file
